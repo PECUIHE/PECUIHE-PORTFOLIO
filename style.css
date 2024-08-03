@@ -42,7 +42,6 @@ h4 {
 }
 
 .header-new .circled-p-logo-container {
-  /* float: left; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -53,13 +52,13 @@ h4 {
 
 .circled-p-logo {
   border-radius: 100%;
-  border: 2px solid hsl(159, 96%, 19%);
+  border: 2px solid hsl(157, 78%, 32%);
   padding: 3px;
   margin-right: 5px;
 }
 
 .circled-p-logo-heading {
-  color: hsl(159, 96%, 19%);
+  color: hsl(157, 78%, 32%);
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -74,7 +73,7 @@ color: hsl(0, 0%, 0%);
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(157, 78%, 32%);
 }
 
 .header-new ul a{
@@ -85,12 +84,13 @@ color: hsl(0, 0%, 0%);
 .header-new ul a:hover{
   background-color: hsl(159, 96%, 19%);
   font-weight: bold;
+  color: hsl(0, 0%, 100%);
 }
 
 .header-new .menu {
   clear: both;
   max-height: 0;
-  transition: max-height 0.2s ease-out;
+  transition: max-height 0.5s ease-out;
 }
 
 .header-new .menu-icon{
@@ -106,7 +106,8 @@ color: hsl(0, 0%, 0%);
   height: 2px;
   width: 18px;
   position: relative;
-  transition: background 0.2s ease-out;
+  float: right;
+  transition: background 0.5s ease-out;
 }
 
 .header-new .menu-icon .nav-icon:before{
@@ -116,7 +117,7 @@ color: hsl(0, 0%, 0%);
   height: 100%;
   width: 100%;
   position: absolute;
-  transition: all 0.2s ease-out;
+  transition: all 0.5s ease-out;
   top: 5px;
 }
 .header-new .menu-icon .nav-icon:after{
@@ -126,7 +127,7 @@ color: hsl(0, 0%, 0%);
   height: 100%;
   width: 100%;
   position: absolute;
-  transition: all 0.2s ease-out;
+  transition: all 0.5s ease-out;
   top: -5px;
 }
 
@@ -178,7 +179,7 @@ color: hsl(0, 0%, 0%);
 footer {
   display: grid;
   place-items: center end;
-  background-color: black;
+  background-color: hsl(0, 0%, 0%);
   min-height: 60px;
   padding: 20px;
 }
@@ -229,8 +230,8 @@ main {
 }
 
 .name {
-  color: hsl(0, 75%, 56%);
-  font-size: 2.2rem;
+  color: hsl(0, 89%, 57%);
+  font-size: 2.5rem;
 }
 
 .pecuihe-text-wrapper {
@@ -291,7 +292,7 @@ main {
 .underline {
   width: 60px;
   height: 4px;
-  background-color: black;
+  background-color: hsl(0, 0%, 0%);
   border-radius: 99px;
 }
 .pecuihe-card-wrapper {
@@ -337,7 +338,7 @@ main {
 /* Services starts here */
 
 .main-container:nth-of-type(3) {
-  background-color: hsl(165, 60%, 48%);
+  background-color: hsl(0, 44%, 44%);
   color: hsl(0, 0%, 100%);
 }
 
@@ -364,7 +365,6 @@ main {
 
 .experience img {
   width: 100%;
-  /* max-width: 320px; */
 }
 
 .experience-card {
